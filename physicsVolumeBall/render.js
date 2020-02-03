@@ -60,8 +60,9 @@ var canvas = document.getElementById('c'),
     touchToMouse = e => {
         let t = e.touches[e.touches.length - 1];
         return t
-    }
-π = 3.141592653589793, 𝜏 = π * 2;
+    },
+    π = 3.141592653589793,
+    𝜏 = π * 2;
 
 (r = () => {
     canvas.width = 300;
